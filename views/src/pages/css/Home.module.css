@@ -47,11 +47,13 @@
 .sectionSubTitle {
   font-size: 1.5em;
   padding: 40px 20px;
+  padding-bottom: 0;
   font-weight: 400;
 }
 .sectionTitle,
 .sectionSubTitle,
-.gridTitle {
+.gridTitle,
+.featuredSectionTitle {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   line-height: 1.5;
   letter-spacing: 0.5px;
@@ -96,6 +98,21 @@
   padding: 20px 0;
   background-color: #a3a2ff;
   width: 100%;
+}
+
+.featuredSection {
+  margin-top: 40px;
+  width: 80%;
+  height: 600px;
+  background-color: #a3a2ff;
+  border-radius: 8px;
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+.featuredSectionTitle {
+  font-size: 1.3em;
 }
 
 @keyframes fadeIn {

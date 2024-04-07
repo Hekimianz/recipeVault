@@ -46,6 +46,10 @@ function Home({ screenSize }) {
           </p>
         </div>
       </div>
+
+      <div className={styles.featuredSection}>
+        <h3 className={styles.featuredSectionTitle}>Featured Recipes</h3>
+      </div>
     </div>
   );
 }
