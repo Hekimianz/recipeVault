@@ -1,0 +1,72 @@
+.signupMainCont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.signupTitle {
+  color: #a3a2ff;
+  font-size: 2em;
+  width: 90%;
+  border-bottom: 1px dashed #a3a2ff;
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: "Roboto Slab", serif;
+  margin-top: 20px;
+}
+
+.signupInputCont {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+input {
+  border: 1px solid #a3a2ff;
+  border-radius: 4px;
+  padding-left: 2px;
+}
+
+button {
+  color: #a3a2ff;
+  border: 4px solid #a3a2ff;
+  background-color: #f9f4ef;
+  font-size: 1.2em;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 40px 0;
+  cursor: pointer;
+  transition: 0.1s all;
+}
+
+button:hover {
+  background-color: #a3a2ff;
+  color: #f9f4ef;
+  font-size: 1.3em;
+}
+
+a {
+  color: #a3a2ff;
+}
+
+span {
+  margin-bottom: 20px;
+  opacity: 0.5;
+}
+
+span:hover {
+  opacity: 1;
+}
+
+@media screen and (min-width: 500px) {
+  .signupInputCont {
+    flex-direction: row;
+    width: 300px;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+}
